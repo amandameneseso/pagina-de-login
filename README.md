@@ -1,27 +1,46 @@
-# PaginaDeLogin
+# Página de Login & Signup - Angular 17 + Spring Boot
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.17.
+Este projeto é um sistema de autenticação completo (Frontend + Backend), desenvolvido para consolidar conhecimentos em Angular, Java, Spring Boot, segurança de aplicações, integração de APIs REST e práticas modernas de desenvolvimento web.
 
-## Development server
+## Sobre o projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O objetivo principal desta aplicação é oferecer um fluxo seguro de login e cadastro de usuários.
 
-## Code scaffolding
+## Tecnologias e Ferramentas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Frontend
+* **Angular 17**
+* **TypeScript**
+* **SASS (SCSS)**
+* **RxJS** (Integração com API)
+* **ngx-toastr** (Notificações visuais)
 
-## Build
+### Backend (Em desenvolvimento)
+* **Java 21**
+* **Spring Boot 3**
+* **Spring Security**
+* **JSON Web Token (JWT)**
+* **H2 Database**
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Funcionalidades
 
-## Running unit tests
+- [x] Tela de Login intuitiva.
+- [x] Tela de Cadastro com validação de campos.
+- [x] Integração com API REST via HttpClient.
+- [x] Gerenciamento de tokens JWT no `sessionStorage`.
+- [x] Notificações de erro/sucesso dinâmicas.
+- [ ] Proteção de rotas (AuthGuard).
+- [ ] Dashboard logado.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Como Executar
 
-## Running end-to-end tests
+### Pré-requisitos
+* Node.js (v18 ou v20 recomendado)
+* Angular CLI 17
+* Java 17+ (para o Backend)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Passo a Passo (Frontend)
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/seu-usuario/login-angular-spring.git](https://github.com/seu-usuario/login-angular-spring.git)
