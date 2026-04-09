@@ -1,4 +1,4 @@
-# Página de Login & Signup - Angular 17 + Spring Boot
+# Página de Login e Signup - Angular 17 + Spring Boot
 
 Este projeto é um sistema de autenticação completo (Frontend + Backend), desenvolvido para consolidar conhecimentos em Angular, Java, Spring Boot, segurança de aplicações, integração de APIs REST e práticas modernas de desenvolvimento web.
 
